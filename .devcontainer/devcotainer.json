@@ -1,0 +1,11 @@
+{
+    "name": "DevTrace Journal",
+    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1: {
+        "version": "22"
+        }
+    }
+},
+"forwardPorts": [3000, 8787],
+"postCreateCommand": "npm install"
